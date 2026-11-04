@@ -126,7 +126,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 }
 @media(max-width:560px){
  .hero-actions{width:100%;max-width:none;align-items:stretch;flex-direction:row;gap:10px}
- .hero-actions .btn{flex:1 1 0;max-width:none;text-align:center;white-space:normal;padding:15px 14px 14px;font-size:13px;line-height:1.2;min-height:54px;border-radius:8px}
+ .hero-actions .btn{display:flex;flex:1 1 0;max-width:none;align-items:center;justify-content:center;text-align:center;white-space:normal;padding:12px 10px;font-size:clamp(13px,3.8vw,15px);line-height:1.2;min-height:54px;border-radius:8px}
  .hero-actions .btn.ghost{padding-top:14px;padding-bottom:14px;border-width:1px}
  .stats-resume{margin-top:24px}
  .stats{gap:8px}
