@@ -28,7 +28,10 @@ if ("IntersectionObserver" in window) {
         activeObserver.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.12 });
+  }, {
+    threshold: matchMedia("(max-width: 560px)").matches ? 0 : 0.12,
+    rootMargin: matchMedia("(max-width: 560px)").matches ? "0px 0px 180px 0px" : "0px"
+  });
   document.querySelectorAll(".stats, main section, .case, footer").forEach(element => {
     element.classList.add("reveal");
     observer.observe(element);
