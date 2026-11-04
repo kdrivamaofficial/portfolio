@@ -125,8 +125,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
  .awards{width:100%;margin-top:22px}
 }
 @media(max-width:560px){
- .hero-actions{align-items:stretch;flex-direction:row;gap:10px}
- .hero-actions .btn{flex:0 0 calc(50% - 5px);max-width:none;text-align:center;white-space:normal;padding:15px 14px 14px;font-size:13px;line-height:1.2;min-height:54px;border-radius:8px}
+ .hero-actions{width:100%;max-width:none;align-items:stretch;flex-direction:row;gap:10px}
+ .hero-actions .btn{flex:1 1 0;max-width:none;text-align:center;white-space:normal;padding:15px 14px 14px;font-size:13px;line-height:1.2;min-height:54px;border-radius:8px}
  .hero-actions .btn.ghost{padding-top:14px;padding-bottom:14px;border-width:1px}
  .stats-resume{margin-top:24px}
  .stats{gap:8px}
